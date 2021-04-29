@@ -1,0 +1,86 @@
+{
+  "uid" : "d5a16c285920367a",
+  "name" : "\"after each\" hook for todoist app",
+  "fullName" : "todoist app.\"after each\" hook for todoist app",
+  "historyId" : "3100471254e100ce40c9a55064e46e42",
+  "time" : {
+    "start" : 1619027722771,
+    "stop" : 1619027722773,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid session id",
+  "statusTrace" : "invalid session id\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LoginPage.close (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/page.js:10:24)\n                    at LoginPage.close (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:22:22)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:17:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid session id",
+    "statusTrace" : "invalid session id\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LoginPage.close (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/page.js:10:24)\n                    at LoginPage.close (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:22:22)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:17:19)",
+    "steps" : [ {
+      "name" : "DELETE /session/:sessionId/window",
+      "time" : {
+        "start" : 1619027722771,
+        "stop" : 1619027722773,
+        "duration" : 2
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid session id\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LoginPage.close (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/page.js:10:24)\n                    at LoginPage.close (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:22:22)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:17:19)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "todoist app"
+  }, {
+    "name" : "testClass",
+    "value" : "todoist app"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after each\" hook for todoist app"
+  }, {
+    "name" : "package",
+    "value" : "todoist app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.128"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5a16c285920367a.json",
+  "parameterValues" : [ "chrome-89.0.4389.128" ]
+}

@@ -1,0 +1,92 @@
+{
+  "uid" : "3c8ed97fb354e9b5",
+  "name" : "\"before each\" hook for Task Creation",
+  "fullName" : "Task Creation.\"before each\" hook for Task Creation",
+  "historyId" : "3d5822ef1d1462139a2b6a5337bab7c3",
+  "time" : {
+    "start" : 1619584740708,
+    "stop" : 1619584740719,
+    "duration" : 11
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=90.0.4430.85)",
+  "statusTrace" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=90.0.4430.85)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/page.js:7:24)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:22:22)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/createNewTask.js:10:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=90.0.4430.85)",
+    "statusTrace" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=90.0.4430.85)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/page.js:7:24)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:22:22)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/createNewTask.js:10:19)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1619584740709,
+        "stop" : 1619584740719,
+        "duration" : 10
+      },
+      "status" : "broken",
+      "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=90.0.4430.85)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/page.js:7:24)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:22:22)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/createNewTask.js:10:19)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f61dda719c19f13",
+        "name" : "Request",
+        "source" : "9f61dda719c19f13.json",
+        "type" : "application/json",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Task Creation"
+  }, {
+    "name" : "testClass",
+    "value" : "Task Creation"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before each\" hook for Task Creation"
+  }, {
+    "name" : "package",
+    "value" : "Task Creation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c8ed97fb354e9b5.json",
+  "parameterValues" : [ "chrome-90.0.4430.85" ]
+}

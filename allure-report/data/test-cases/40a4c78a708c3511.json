@@ -1,0 +1,116 @@
+{
+  "uid" : "40a4c78a708c3511",
+  "name" : "\"before each\" hook for todoist app",
+  "fullName" : "todoist app.\"before each\" hook for todoist app",
+  "historyId" : "5c01c5a4846237c0ee9871c235ff9165",
+  "time" : {
+    "start" : 1619502289021,
+    "stop" : 1619502289067,
+    "duration" : 46
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid session id",
+  "statusTrace" : "invalid session id\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/page.js:8:24)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:20:22)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:16:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid session id",
+    "statusTrace" : "invalid session id\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/page.js:8:24)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:20:22)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:16:19)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1619502289021,
+        "stop" : 1619502289067,
+        "duration" : 46
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid session id\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/page.js:8:24)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:20:22)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:16:19)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec70e2038ffc1f86",
+        "name" : "Request",
+        "source" : "ec70e2038ffc1f86.json",
+        "type" : "application/json",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "todoist app"
+  }, {
+    "name" : "testClass",
+    "value" : "todoist app"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before each\" hook for todoist app"
+  }, {
+    "name" : "package",
+    "value" : "todoist app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9ac0cf5a58418df",
+      "status" : "broken",
+      "statusDetails" : "invalid session id",
+      "time" : {
+        "start" : 1619502218463,
+        "stop" : 1619502218500,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "e319a3388e47ea28",
+      "status" : "broken",
+      "statusDetails" : "invalid session id",
+      "time" : {
+        "start" : 1619501863937,
+        "stop" : 1619501863970,
+        "duration" : 33
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "40a4c78a708c3511.json",
+  "parameterValues" : [ "chrome-90.0.4430.85" ]
+}

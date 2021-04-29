@@ -1,0 +1,46 @@
+{
+  "uid" : "c773f7310b7f382b",
+  "name" : "login with wrong credentials",
+  "fullName" : "todoist app.login with wrong credentials",
+  "historyId" : "118888008c97ea6f147c62634f509577",
+  "time" : {
+    "start" : 1619504030632,
+    "stop" : 1619504030632,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "todoist app"
+  }, {
+    "name" : "testClass",
+    "value" : "todoist app"
+  }, {
+    "name" : "testMethod",
+    "value" : "login with wrong credentials"
+  }, {
+    "name" : "package",
+    "value" : "todoist app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c773f7310b7f382b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,139 @@
+{
+  "uid" : "d56550cac2a4461c",
+  "name" : "login with wrong credentials",
+  "fullName" : "Invalid Login Suite.login with wrong credentials",
+  "historyId" : "84d5e84ababe4c4df09be9a7194a27af",
+  "time" : {
+    "start" : 1619504336158,
+    "stop" : 1619504337226,
+    "duration" : 1068
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "WRONGEMAIL is not defined",
+  "statusTrace" : "ReferenceError: WRONGEMAIL is not defined\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:34:25)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "WRONGEMAIL is not defined",
+    "statusTrace" : "ReferenceError: WRONGEMAIL is not defined\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:34:25)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1619504336159,
+        "stop" : 1619504336841,
+        "duration" : 682
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e662944c248c6166",
+        "name" : "Request",
+        "source" : "e662944c248c6166.json",
+        "type" : "application/json",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1619504336841,
+        "stop" : 1619504336848,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24ebb4a6ba7afb4c",
+        "name" : "Request",
+        "source" : "24ebb4a6ba7afb4c.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "d7b9a557c95dbc88",
+        "name" : "Response",
+        "source" : "d7b9a557c95dbc88.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1619504336852,
+        "stop" : 1619504337225,
+        "duration" : 373
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5907fc665ce186f1",
+        "name" : "Screenshot",
+        "source" : "5907fc665ce186f1.png",
+        "type" : "image/png",
+        "size" : 28597
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Invalid Login Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Invalid Login Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "login with wrong credentials"
+  }, {
+    "name" : "package",
+    "value" : "Invalid Login Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d56550cac2a4461c.json",
+  "parameterValues" : [ "chrome-90.0.4430.85" ]
+}

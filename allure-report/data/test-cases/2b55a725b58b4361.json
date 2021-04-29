@@ -1,0 +1,134 @@
+{
+  "uid" : "2b55a725b58b4361",
+  "name" : "\"before each\" hook for todoist app",
+  "fullName" : "todoist app.\"before each\" hook for todoist app",
+  "historyId" : "8639c1d48ec5fb3c15a794d1962af92",
+  "time" : {
+    "start" : 1619034187258,
+    "stop" : 1619034187302,
+    "duration" : 44
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid session id",
+  "statusTrace" : "invalid session id\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/page.js:6:24)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:18:22)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:13:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid session id",
+    "statusTrace" : "invalid session id\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/page.js:6:24)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:18:22)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:13:19)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1619034187258,
+        "stop" : 1619034187302,
+        "duration" : 44
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid session id\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/page.js:6:24)\n                    at LoginPage.open (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:18:22)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:13:19)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "41ad71ed0b5d0ff5",
+        "name" : "Request",
+        "source" : "41ad71ed0b5d0ff5.json",
+        "type" : "application/json",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "todoist app"
+  }, {
+    "name" : "testClass",
+    "value" : "todoist app"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before each\" hook for todoist app"
+  }, {
+    "name" : "package",
+    "value" : "todoist app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.128"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8b62678f55281bb9",
+      "status" : "broken",
+      "statusDetails" : "invalid session id",
+      "time" : {
+        "start" : 1619027722725,
+        "stop" : 1619027722770,
+        "duration" : 45
+      }
+    }, {
+      "uid" : "67578406b6cbf29",
+      "status" : "broken",
+      "statusDetails" : "invalid session id",
+      "time" : {
+        "start" : 1619027668936,
+        "stop" : 1619027668979,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "482544a7bb240b96",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=89.0.4389.128)",
+      "time" : {
+        "start" : 1619027506595,
+        "stop" : 1619027506605,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "586a24abac41bf96",
+      "status" : "broken",
+      "statusDetails" : "invalid session id",
+      "time" : {
+        "start" : 1619027215001,
+        "stop" : 1619027215049,
+        "duration" : 48
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2b55a725b58b4361.json",
+  "parameterValues" : [ "chrome-89.0.4389.128" ]
+}

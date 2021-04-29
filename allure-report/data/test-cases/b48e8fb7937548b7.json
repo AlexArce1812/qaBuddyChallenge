@@ -1,0 +1,139 @@
+{
+  "uid" : "b48e8fb7937548b7",
+  "name" : "Successful login",
+  "fullName" : "todoist app.Successful login",
+  "historyId" : "5ee72b81e518ae5cda2661e7535a4f7d",
+  "time" : {
+    "start" : 1619503118558,
+    "stop" : 1619503122642,
+    "duration" : 4084
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'click' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'click' of undefined\n                    at LoginPage.login (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:12:28)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:20:25)\n                    at Context.executeAsync (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/shim.js:137:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:44:32)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'click' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'click' of undefined\n                    at LoginPage.login (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:12:28)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:20:25)\n                    at Context.executeAsync (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/shim.js:137:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:44:32)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1619503118561,
+        "stop" : 1619503121837,
+        "duration" : 3276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8b86f6dfbe5f3b10",
+        "name" : "Request",
+        "source" : "8b86f6dfbe5f3b10.json",
+        "type" : "application/json",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1619503121839,
+        "stop" : 1619503122639,
+        "duration" : 800
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1619503121840,
+          "stop" : 1619503121852,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a9619650721cf64f",
+          "name" : "Response",
+          "source" : "a9619650721cf64f.json",
+          "type" : "application/json",
+          "size" : 184
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ab59668f94c0443c",
+        "name" : "Request",
+        "source" : "ab59668f94c0443c.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "7a3abf257fcf91e6",
+        "name" : "Screenshot",
+        "source" : "7a3abf257fcf91e6.png",
+        "type" : "image/png",
+        "size" : 1963233
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "todoist app"
+  }, {
+    "name" : "testClass",
+    "value" : "todoist app"
+  }, {
+    "name" : "testMethod",
+    "value" : "Successful login"
+  }, {
+    "name" : "package",
+    "value" : "todoist app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b48e8fb7937548b7.json",
+  "parameterValues" : [ "chrome-90.0.4430.85" ]
+}

@@ -1,0 +1,91 @@
+{
+  "uid" : "cfb040a6733f0932",
+  "name" : "login with wrong credentials",
+  "fullName" : "Invalid Login Suite.login with wrong credentials",
+  "historyId" : "84d5e84ababe4c4df09be9a7194a27af",
+  "time" : {
+    "start" : 1619504307748,
+    "stop" : 1619504308187,
+    "duration" : 439
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "WRONGEMAIL is not defined",
+  "statusTrace" : "ReferenceError: WRONGEMAIL is not defined\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:28:25)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "WRONGEMAIL is not defined",
+    "statusTrace" : "ReferenceError: WRONGEMAIL is not defined\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:28:25)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1619504307751,
+        "stop" : 1619504308186,
+        "duration" : 435
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0d1d83e0e611afb",
+        "name" : "Screenshot",
+        "source" : "b0d1d83e0e611afb.png",
+        "type" : "image/png",
+        "size" : 75214
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Invalid Login Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Invalid Login Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "login with wrong credentials"
+  }, {
+    "name" : "package",
+    "value" : "Invalid Login Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfb040a6733f0932.json",
+  "parameterValues" : [ "chrome-90.0.4430.85" ]
+}

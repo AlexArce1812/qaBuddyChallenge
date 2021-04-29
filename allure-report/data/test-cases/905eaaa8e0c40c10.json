@@ -1,0 +1,187 @@
+{
+  "uid" : "905eaaa8e0c40c10",
+  "name" : "login with empty email",
+  "fullName" : "Invalid Login Suite.login with empty email",
+  "historyId" : "370a591a9619657da08ee2f1a5bf7bd5",
+  "time" : {
+    "start" : 1619505145138,
+    "stop" : 1619505146721,
+    "duration" : 1583
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "EMPTYEMAIL is not defined",
+  "statusTrace" : "ReferenceError: EMPTYEMAIL is not defined\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:40:26)\n                    at Context.executeAsync (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/shim.js:137:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:44:32)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "EMPTYEMAIL is not defined",
+    "statusTrace" : "ReferenceError: EMPTYEMAIL is not defined\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:40:26)\n                    at Context.executeAsync (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/shim.js:137:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:44:32)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1619505145138,
+        "stop" : 1619505145935,
+        "duration" : 797
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c3be7598d700bd36",
+        "name" : "Request",
+        "source" : "c3be7598d700bd36.json",
+        "type" : "application/json",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1619505145935,
+        "stop" : 1619505145942,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "278adf3804eca5db",
+        "name" : "Request",
+        "source" : "278adf3804eca5db.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "9ef18778931ebea5",
+        "name" : "Response",
+        "source" : "9ef18778931ebea5.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/28f17409-1892-4aff-85b8-8d9993d44ed9/click",
+      "time" : {
+        "start" : 1619505145944,
+        "stop" : 1619505145993,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1619505145993,
+        "stop" : 1619505146719,
+        "duration" : 726
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9fb221e7d0b302f8",
+        "name" : "Screenshot",
+        "source" : "9fb221e7d0b302f8.png",
+        "type" : "image/png",
+        "size" : 86787
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Invalid Login Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Invalid Login Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "login with empty email"
+  }, {
+    "name" : "package",
+    "value" : "Invalid Login Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "910a4e637dcd7cba",
+      "status" : "broken",
+      "statusDetails" : "EMPTYEMAIL is not defined",
+      "time" : {
+        "start" : 1619505110337,
+        "stop" : 1619505111430,
+        "duration" : 1093
+      }
+    }, {
+      "uid" : "8c0443bf74e77737",
+      "status" : "broken",
+      "statusDetails" : "EMPTYEMAIL is not defined",
+      "time" : {
+        "start" : 1619504337227,
+        "stop" : 1619504338688,
+        "duration" : 1461
+      }
+    }, {
+      "uid" : "d7f5b975313a32eb",
+      "status" : "broken",
+      "statusDetails" : "EMPTYEMAIL is not defined",
+      "time" : {
+        "start" : 1619504308187,
+        "stop" : 1619504308418,
+        "duration" : 231
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "905eaaa8e0c40c10.json",
+  "parameterValues" : [ "chrome-90.0.4430.85" ]
+}

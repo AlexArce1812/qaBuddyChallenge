@@ -1,0 +1,259 @@
+{
+  "uid" : "5d80c3d30ca6dd1c",
+  "name" : "login with empty email",
+  "fullName" : "todoist app.login with empty email",
+  "historyId" : "c356b99231996ce3863afcc1452fbedd",
+  "time" : {
+    "start" : 1619505182639,
+    "stop" : 1619505183751,
+    "duration" : 1112
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "this.inputEmail.setValue is not a function",
+  "statusTrace" : "TypeError: this.inputEmail.setValue is not a function\n                    at LoginPage.login (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:12:25)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:32:20)\n                    at Context.executeAsync (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/shim.js:137:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:44:32)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "this.inputEmail.setValue is not a function",
+    "statusTrace" : "TypeError: this.inputEmail.setValue is not a function\n                    at LoginPage.login (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:12:25)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:32:20)\n                    at Context.executeAsync (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/shim.js:137:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:44:32)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1619505182639,
+        "stop" : 1619505183272,
+        "duration" : 633
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e24d0dec124214a1",
+        "name" : "Request",
+        "source" : "e24d0dec124214a1.json",
+        "type" : "application/json",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1619505183272,
+        "stop" : 1619505183279,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c182f24fa2e964e0",
+        "name" : "Request",
+        "source" : "c182f24fa2e964e0.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "54388c75f393059f",
+        "name" : "Response",
+        "source" : "54388c75f393059f.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/c995565d-bc00-428c-ae67-a3fdad17bc82/click",
+      "time" : {
+        "start" : 1619505183281,
+        "stop" : 1619505183330,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619505183331,
+        "stop" : 1619505183747,
+        "duration" : 416
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1619505183332,
+          "stop" : 1619505183488,
+          "duration" : 156
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ef4030a57359ec96",
+          "name" : "Response",
+          "source" : "ef4030a57359ec96.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "5a640895f7740f8d",
+        "name" : "Request",
+        "source" : "5a640895f7740f8d.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "4706a6836843fd08",
+        "name" : "Screenshot",
+        "source" : "4706a6836843fd08.png",
+        "type" : "image/png",
+        "size" : 86787
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "todoist app"
+  }, {
+    "name" : "testClass",
+    "value" : "todoist app"
+  }, {
+    "name" : "testMethod",
+    "value" : "login with empty email"
+  }, {
+    "name" : "package",
+    "value" : "todoist app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2982f90489c15fb4",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1619502983641,
+        "stop" : 1619502984952,
+        "duration" : 1311
+      }
+    }, {
+      "uid" : "80b0bb0e8c05d78c",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1619502919079,
+        "stop" : 1619502920910,
+        "duration" : 1831
+      }
+    }, {
+      "uid" : "9b87c28262f0338c",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1619501798410,
+        "stop" : 1619501799855,
+        "duration" : 1445
+      }
+    }, {
+      "uid" : "a86a557c886a68a5",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1619481675828,
+        "stop" : 1619481677180,
+        "duration" : 1352
+      }
+    }, {
+      "uid" : "1dbab6b05a74810",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1619481602596,
+        "stop" : 1619481603662,
+        "duration" : 1066
+      }
+    }, {
+      "uid" : "8aadf86b0d8e734c",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1619481465954,
+        "stop" : 1619481466208,
+        "duration" : 254
+      }
+    }, {
+      "uid" : "276d69ca0acc2f96",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1619481377273,
+        "stop" : 1619481377524,
+        "duration" : 251
+      }
+    }, {
+      "uid" : "61b0fe642c90a452",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1619481262507,
+        "stop" : 1619481262760,
+        "duration" : 253
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5d80c3d30ca6dd1c.json",
+  "parameterValues" : [ "chrome-90.0.4430.85" ]
+}

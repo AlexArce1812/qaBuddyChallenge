@@ -1,0 +1,187 @@
+{
+  "uid" : "c6162991f70c324e",
+  "name" : "login with wrong credentials",
+  "fullName" : "Invalid Login Suite.login with wrong credentials",
+  "historyId" : "84d5e84ababe4c4df09be9a7194a27af",
+  "time" : {
+    "start" : 1619505143219,
+    "stop" : 1619505145137,
+    "duration" : 1918
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "WRONGEMAIL is not defined",
+  "statusTrace" : "ReferenceError: WRONGEMAIL is not defined\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:35:25)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "WRONGEMAIL is not defined",
+    "statusTrace" : "ReferenceError: WRONGEMAIL is not defined\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:35:25)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1619505143219,
+        "stop" : 1619505144304,
+        "duration" : 1085
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6037dbed8af01b67",
+        "name" : "Request",
+        "source" : "6037dbed8af01b67.json",
+        "type" : "application/json",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1619505144304,
+        "stop" : 1619505144330,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7d0828a22fb984b6",
+        "name" : "Request",
+        "source" : "7d0828a22fb984b6.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "e570cd86b4f37ca1",
+        "name" : "Response",
+        "source" : "e570cd86b4f37ca1.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/0ffe09dc-d66b-4a72-8b6e-e5ed8821016f/click",
+      "time" : {
+        "start" : 1619505144332,
+        "stop" : 1619505144381,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1619505144384,
+        "stop" : 1619505145137,
+        "duration" : 753
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "673aafc6a8e8c0f3",
+        "name" : "Screenshot",
+        "source" : "673aafc6a8e8c0f3.png",
+        "type" : "image/png",
+        "size" : 86787
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Invalid Login Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Invalid Login Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "login with wrong credentials"
+  }, {
+    "name" : "package",
+    "value" : "Invalid Login Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f3c009aa5ce64e5c",
+      "status" : "broken",
+      "statusDetails" : "WRONGEMAIL is not defined",
+      "time" : {
+        "start" : 1619505108682,
+        "stop" : 1619505110337,
+        "duration" : 1655
+      }
+    }, {
+      "uid" : "d56550cac2a4461c",
+      "status" : "broken",
+      "statusDetails" : "WRONGEMAIL is not defined",
+      "time" : {
+        "start" : 1619504336158,
+        "stop" : 1619504337226,
+        "duration" : 1068
+      }
+    }, {
+      "uid" : "cfb040a6733f0932",
+      "status" : "broken",
+      "statusDetails" : "WRONGEMAIL is not defined",
+      "time" : {
+        "start" : 1619504307748,
+        "stop" : 1619504308187,
+        "duration" : 439
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c6162991f70c324e.json",
+  "parameterValues" : [ "chrome-90.0.4430.85" ]
+}

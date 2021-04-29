@@ -1,0 +1,181 @@
+{
+  "uid" : "b0517dfa1e560b1f",
+  "name" : "login with empty password",
+  "fullName" : "Login Test Suite.login with empty password",
+  "historyId" : "b08c16e46a702053adceafb78250988d",
+  "time" : {
+    "start" : 1619505874375,
+    "stop" : 1619505875678,
+    "duration" : 1303
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "this.inputEmail.setValue is not a function",
+  "statusTrace" : "TypeError: this.inputEmail.setValue is not a function\n                    at LoginPage.login (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:12:26)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:31:20)\n                    at Context.executeAsync (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/shim.js:137:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:44:32)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "this.inputEmail.setValue is not a function",
+    "statusTrace" : "TypeError: this.inputEmail.setValue is not a function\n                    at LoginPage.login (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/pages/loginPage.js:12:26)\n                    at Context.<anonymous> (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/loginTests.js:31:20)\n                    at Context.executeAsync (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/shim.js:137:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/alejandro.arce/Documents/Onboarding_Challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:44:32)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1619505874376,
+        "stop" : 1619505875172,
+        "duration" : 796
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "830a298b8a028baf",
+        "name" : "Request",
+        "source" : "830a298b8a028baf.json",
+        "type" : "application/json",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1619505875172,
+        "stop" : 1619505875181,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "32be1e8c13234324",
+        "name" : "Request",
+        "source" : "32be1e8c13234324.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "53da12015677430c",
+        "name" : "Response",
+        "source" : "53da12015677430c.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/f3c57b0c-83ed-40d1-99bc-1bc24f367bd2/click",
+      "time" : {
+        "start" : 1619505875184,
+        "stop" : 1619505875248,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1619505875249,
+        "stop" : 1619505875677,
+        "duration" : 428
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1619505875251,
+          "stop" : 1619505875410,
+          "duration" : 159
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "532e921bca3f3888",
+          "name" : "Response",
+          "source" : "532e921bca3f3888.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "a86855908bce38d5",
+        "name" : "Request",
+        "source" : "a86855908bce38d5.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "7eea51b4e2a29038",
+        "name" : "Screenshot",
+        "source" : "7eea51b4e2a29038.png",
+        "type" : "image/png",
+        "size" : 86810
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "login with empty password"
+  }, {
+    "name" : "package",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.85"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b0517dfa1e560b1f.json",
+  "parameterValues" : [ "chrome-90.0.4430.85" ]
+}

@@ -1,0 +1,46 @@
+{
+  "uid" : "df515116af7fb7be",
+  "name" : "login with empty password",
+  "fullName" : "todoist app.login with empty password",
+  "historyId" : "35679b93fa5d1fcc82c292d875fc6674",
+  "time" : {
+    "start" : 1619504090998,
+    "stop" : 1619504090998,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "todoist app"
+  }, {
+    "name" : "testClass",
+    "value" : "todoist app"
+  }, {
+    "name" : "testMethod",
+    "value" : "login with empty password"
+  }, {
+    "name" : "package",
+    "value" : "todoist app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df515116af7fb7be.json",
+  "parameterValues" : [ ]
+}

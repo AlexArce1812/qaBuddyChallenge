@@ -1,0 +1,120 @@
+{
+  "uid" : "b074593eacece8cc",
+  "name" : "login with empty email",
+  "fullName" : "todoist app.login with empty email",
+  "historyId" : "fc65ac298eaa48d2223e60dad6699aa3",
+  "time" : {
+    "start" : 1619504206242,
+    "stop" : 1619504206242,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "todoist app"
+  }, {
+    "name" : "testClass",
+    "value" : "todoist app"
+  }, {
+    "name" : "testMethod",
+    "value" : "login with empty email"
+  }, {
+    "name" : "package",
+    "value" : "todoist app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "835e0ca0ed2381b1",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619504144797,
+        "stop" : 1619504144797,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "60894f8c8ae9665a",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619504090998,
+        "stop" : 1619504090998,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "77605ae5a5757436",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619504030632,
+        "stop" : 1619504030632,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4618e9b3647e7d6f",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619503122643,
+        "stop" : 1619503122643,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1fdf30f3fd102a7f",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619503095582,
+        "stop" : 1619503095582,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9b023e8f8a77f7ae",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619503036339,
+        "stop" : 1619503036339,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c5f08e346b7af426",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619502316171,
+        "stop" : 1619502316171,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ff43f2e24207c466",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1619481648971,
+        "stop" : 1619481648971,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b074593eacece8cc.json",
+  "parameterValues" : [ ]
+}
