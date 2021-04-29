@@ -6,7 +6,8 @@
   "scripts": {
     "test": " npm run lint && npx wdio run ./wdio.conf.js ",
     "lint": "eslint test/",
-    "reporter": "allure generate --clean && allure open"
+    "reporter": "allure generate --clean && allure open",
+    "backend": "newman run './test/backend/TodoistApp.postman_collection.json' -e './test/backend/todoist-env.postman_environment.json'"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +27,7 @@
     "dotenv": "^8.2.0",
     "eslint": "^7.24.0",
     "eslint-plugin-mocha": "^8.1.0",
+    "newman": "^5.2.2",
     "wdio-chromedriver-service": "^7.0.0"
   }
 }
