@@ -90,7 +90,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://todoist.com/',
+    baseUrl: 'https://todoist.com/users/showLogin',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 15000,
