@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[contains(text(),task-Tue Apr 27 2021 02:01:39 GMT-0500 (Central Daylight Time))]"
-}
