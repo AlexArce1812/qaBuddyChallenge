@@ -16,6 +16,7 @@
 							"script": {
 								"exec": [
 									"var jsonData = pm.response.json();",
+									"pm.collectionVariables.set(\"variable_key\", \"variable_value\");",
 									"pm.test(\"Response time is less than 500ms\", function () {",
 									"    pm.expect(pm.response.responseTime).to.be.below(500);",
 									"});",
@@ -39,58 +40,7 @@
 							"listen": "prerequest",
 							"script": {
 								"exec": [
-									"schema = {",
-									"  \"type\": \"array\",",
-									"    \"items\": {",
-									"     \"type\": \"object\",",
-									"        \"additionalProperties\": false,",
-									"             \"requiered\": [",
-									"                 \"id\",",
-									"                  \"order\",",
-									"                  \"color\",",
-									"                 \"name\",",
-									"                 \"comment_count\",",
-									"                \"shared\",",
-									"                 \"favorite\",",
-									"                \"sync_id\",",
-									"                \"inbox_project\",",
-									"                 \"url\"",
-									"                            ],",
-									"    \"properties\": {",
-									"         \"id\": {",
-									"             \"type\": \"integer\"",
-									"                 },",
-									"             \"order\": {",
-									"        \"type\": \"integer\",",
-									"        \"optional\": true",
-									"      },",
-									"      \"color\": {",
-									"        \"type\": \"integer\"",
-									"      },",
-									"      \"name\": {",
-									"        \"type\": \"string\"",
-									"      },",
-									"      \"comment_count\": {",
-									"        \"type\": \"integer\"",
-									"      },",
-									"      \"shared\": {",
-									"        \"type\": \"boolean\"",
-									"      },",
-									"      \"favorite\": {",
-									"        \"type\": \"boolean\"",
-									"      },",
-									"      \"sync_id\": {",
-									"        \"type\": \"integer\"",
-									"      },",
-									"      \"inbox_project\": {",
-									"        \"type\": \"boolean\"",
-									"      },",
-									"      \"url\": {",
-									"        \"type\": \"string\"",
-									"      }",
-									"    }",
-									"  }",
-									"};"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -143,56 +93,7 @@
 							"listen": "prerequest",
 							"script": {
 								"exec": [
-									"schema = {",
-									"  \"type\": \"array\",",
-									"    \"items\": {",
-									"     \"type\": \"object\",",
-									"        \"additionalProperties\": false,",
-									"             \"requiered\": [",
-									"                 \"id\",",
-									"                  \"order\",",
-									"                  \"color\",",
-									"                 \"name\",",
-									"                 \"comment_count\",",
-									"                \"shared\",",
-									"                 \"favorite\",",
-									"                \"sync_id\",",
-									"                \"inbox_project\",",
-									"                 \"url\"",
-									"                            ],",
-									"    \"properties\": {",
-									"         \"id\": {",
-									"             \"type\": \"integer\"",
-									"                 },",
-									"             \"order\": {",
-									"        \"type\": \"integer\",",
-									"        \"optional\": true",
-									"      },",
-									"      \"color\": {",
-									"        \"type\": \"integer\"",
-									"      },",
-									"      \"name\": {",
-									"        \"type\": \"string\"",
-									"      },",
-									"      \"comment_count\": {",
-									"        \"type\": \"integer\"",
-									"      },",
-									"      \"shared\": {",
-									"        \"type\": \"boolean\"",
-									"      },",
-									"      \"favorite\": {",
-									"        \"type\": \"boolean\"",
-									"      },",
-									"      \"sync_id\": {",
-									"        \"type\": \"integer\"",
-									"      },",
-									"      ",
-									"      \"url\": {",
-									"        \"type\": \"string\"",
-									"      }",
-									"    }",
-									"  }",
-									"};"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -1165,17 +1066,18 @@
 					"response": []
 				},
 				{
-					"name": "Delete a project Bad Request",
+					"name": "Delete a project Not Found",
 					"event": [
 						{
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Status code is 400\", function () {",
-									"    pm.response.to.have.status(400);",
+									"pm.test(\"Status code is 404\", function () {",
+									"pm.globals.set(\"variable_key\", \"variable_value\");",
+									"    pm.response.to.have.status(404);",
 									"});",
-									"pm.test(\"Status code name is Bad Request\", function () {",
-									"    pm.response.to.have.status(\"Bad Request\");",
+									"pm.test(\"Status code name is Not Found\", function () {",
+									"    pm.response.to.have.status(\"Not Found\");",
 									"});"
 								],
 								"type": "text/javascript"
@@ -1195,13 +1097,23 @@
 						},
 						"method": "DELETE",
 						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "error",
+									"value": "ssss",
+									"type": "text"
+								}
+							]
+						},
 						"url": {
-							"raw": "{{projectURL}}/{{errorID}}",
+							"raw": "{{projectURL}}/",
 							"host": [
 								"{{projectURL}}"
 							],
 							"path": [
-								"{{errorID}}"
+								""
 							]
 						}
 					},
@@ -1411,18 +1323,18 @@
 					"response": []
 				},
 				{
-					"name": "Close a task Bad Request",
+					"name": "Close a task Not Found",
 					"event": [
 						{
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Status Code is 400 \", function () {",
-									"    pm.response.to.have.status(400);",
+									"pm.test(\"Status Code is 404 \", function () {",
+									"    pm.response.to.have.status(404);",
 									"});",
 									"",
 									"pm.test(\"Status code name is Bad Request\", function () {",
-									"    pm.response.to.have.status(\"Bad Request\");",
+									"    pm.response.to.have.status(\"Not Found\");",
 									"});",
 									"",
 									"pm.test(\"Response time is less than 1500ms\", function () {",
@@ -1447,12 +1359,11 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{taskURL}}/{{errorTaskID}}/close",
+							"raw": "{{taskURL}}/close",
 							"host": [
 								"{{taskURL}}"
 							],
 							"path": [
-								"{{errorTaskID}}",
 								"close"
 							]
 						}
@@ -1518,7 +1429,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Delete a task Bad Request",
 					"event": [
 						{
 							"listen": "test",
@@ -1600,19 +1511,24 @@
 	],
 	"variable": [
 		{
-			"id": "7cd493a8-e001-4335-a45e-c0d0521dcbba",
+			"id": "c913d36c-c068-427f-8200-b652e76e5ee5",
 			"key": "token",
 			"value": ""
 		},
 		{
-			"id": "b30d31f6-6e30-4395-8852-2b5d9623f5d6",
+			"id": "2844821a-47e6-491e-b6f1-216c58db7b38",
 			"key": "projectURL",
 			"value": "https://api.todoist.com/rest/v1/projects"
 		},
 		{
-			"id": "5d494c9b-0f3b-4183-8e20-d4c4e87d7f94",
+			"id": "978dccfd-c098-403b-8271-44cc1772f753",
 			"key": "tasksURL",
 			"value": "https://api.todoist.com/rest/v1/tasks"
+		},
+		{
+			"id": "f6f5f642-427e-45b9-9ec8-de49ec492e32",
+			"key": "variable_key",
+			"value": ""
 		}
 	]
 }
