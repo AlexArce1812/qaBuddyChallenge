@@ -27,4 +27,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm install
-    - run: npm run backend
+    - run: npm run backend && open ./backend_report/report.html
