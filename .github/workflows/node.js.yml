@@ -33,3 +33,5 @@ jobs:
         collection: ./backend/TodoistApp.postman_collection.json
         environment: ./backend/todoist-env.postman_environment.json
         reporters: cli
+    - name: Output Newman Report
+      run: echo ${{ steps.run-newman.outputs.summary }}    
