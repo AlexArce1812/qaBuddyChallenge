@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": " npm run lint && npx wdio run ./wdio.conf.js ",
+    "test": " npm run lint && npx wdio run ./wdio.conf.js && npm run reporter",
     "lint": "eslint test/",
     "reporter": "allure generate --clean && allure open",
-    "backend": "newman run './test/backend/TodoistApp.postman_collection.json' -e './test/backend/todoist-env.postman_environment.json'"
+    "backend": "newman run './test/backend/TodoistApp.postman_collection.json' -e './test/backend/todoist-env.postman_environment.json' -r htmlextra --reporter-htmlextra-export ./backend_report/report.html"
   },
   "author": "",
   "license": "ISC",
@@ -28,6 +28,7 @@
     "eslint": "^7.24.0",
     "eslint-plugin-mocha": "^8.1.0",
     "newman": "^5.2.2",
+    "newman-reporter-htmlextra": "^1.20.4",
     "wdio-chromedriver-service": "^7.0.0"
   }
 }

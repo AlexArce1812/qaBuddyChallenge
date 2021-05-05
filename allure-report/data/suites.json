@@ -1,0 +1,91 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Login Test Suite",
+    "children" : [ {
+      "name" : "login with wrong credentials",
+      "uid" : "717f27f222f99083",
+      "parentUid" : "6987f36ae2d7fc364278176c245ab12e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620248126643,
+        "stop" : 1620248127960,
+        "duration" : 1317
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with empty email",
+      "uid" : "462e9ba296b4473e",
+      "parentUid" : "6987f36ae2d7fc364278176c245ab12e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620248127960,
+        "stop" : 1620248128632,
+        "duration" : 672
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with empty password",
+      "uid" : "92f086cb8d8b6225",
+      "parentUid" : "6987f36ae2d7fc364278176c245ab12e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620248128632,
+        "stop" : 1620248129342,
+        "duration" : 710
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Successful login",
+      "uid" : "970415ab5e978412",
+      "parentUid" : "6987f36ae2d7fc364278176c245ab12e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620248129342,
+        "stop" : 1620248132769,
+        "duration" : 3427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    } ],
+    "uid" : "6987f36ae2d7fc364278176c245ab12e"
+  }, {
+    "name" : "Task Creation",
+    "children" : [ {
+      "name" : "create 1 task",
+      "uid" : "2fb2cbcb1520ef0e",
+      "parentUid" : "486df5b73e82b204e9162b6009d82736",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620248134886,
+        "stop" : 1620248141599,
+        "duration" : 6713
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "create 10 task",
+      "uid" : "23d391715d393a73",
+      "parentUid" : "486df5b73e82b204e9162b6009d82736",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620248141599,
+        "stop" : 1620248167792,
+        "duration" : 26193
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    } ],
+    "uid" : "486df5b73e82b204e9162b6009d82736"
+  } ],
+  "name" : "suites"
+}
