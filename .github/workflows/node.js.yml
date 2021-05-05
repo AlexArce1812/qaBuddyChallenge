@@ -27,4 +27,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm install
-    - run: npm run backend && open ./backend_report/report.html
+    - run: npm run backend
+    - uses: actions/download-artifact@v2
