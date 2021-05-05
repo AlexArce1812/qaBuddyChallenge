@@ -26,8 +26,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
-    - run: npm run backend
-    - uses: actions/download-artifact@v2
-      with:
-        name: report_backend
-        path: ./backend_report/report.html
+    - name: Running Postman/Newman Tests
+      id: run-newman
+      uses: anthonyvscode/newman-action@v1
+      with: 
+        collection: ./backend/TodoistApp.postman_collection.json
+        environment: ./backend/todoist-env.postman_environment.json
+        reporters: cli
