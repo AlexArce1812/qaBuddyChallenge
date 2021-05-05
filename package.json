@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": " npm run lint && npx wdio run ./wdio.conf.js && npm run reporter",
+    "frontend-headless": "npm run lint && npx wdio run ./wdio.conf.js",
     "lint": "eslint test/",
     "reporter": "allure generate --clean && allure open",
     "backend-reporter": "newman run './test/backend/TodoistApp.postman_collection.json' -e './test/backend/todoist-env.postman_environment.json' -r htmlextra --reporter-htmlextra-export ./backend_report/report.html && open ./backend_report/report.html",
