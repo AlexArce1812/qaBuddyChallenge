@@ -9,6 +9,7 @@ class NotePage extends Page{
     get addBtn(){return $('.ist_button_red')}
     get settingsBtn(){return $('.settings_btn')}
     get logOutBtn(){return $$('.user_menu_label')[8]}
+    get changeTimezoneBtn () { return $('//div[@class="timezone_alert"]/a[2]') }
 
     createNewTask(taskName){
         this.newTaskBtn.click();
@@ -16,7 +17,6 @@ class NotePage extends Page{
         this.inputNewTask.setValue(taskName);
         browser.pause(1000)
         this.addBtn.click();
-        browser.refresh()
     }
 
     createTasks( numberOfTasks){
@@ -31,6 +31,14 @@ class NotePage extends Page{
      getTaskByName(taskName){
         return browser.$('//div[contains(text(),"'+taskName+'")]')
      }
+
+      clickTimezoneBtn () {
+        this.changeTimezoneBtn.click()
+      }
+    
+      isTimezoneAlertDisplayed () {
+        return this.changeTimezoneBtn.isDisplayed()
+      }
 
 }
 

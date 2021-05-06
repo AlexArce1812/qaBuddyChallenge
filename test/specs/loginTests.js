@@ -10,27 +10,30 @@ describe ('Login Test Suite', () => {
         LoginPage.open()
       })
 
-    it('login with wrong credentials', () => {
+    xit('login with wrong credentials', () => {
         allureReporter.addFeature('Login with Wrong Credentials')    
         LoginPage.login(constants.WRONGEMAIL,constants.WRONGPASSWORD);
         expect(LoginPage.errorMessage).toBeDisplayed();
     });
 
-    it('login with empty email', () => {
+    xit('login with empty email', () => {
         allureReporter.addFeature('Login with Empty Email')    
          LoginPage.login(constants.EMPTY,constants.WRONGPASSWORD);
          expect(LoginPage.errorMessage).toBeDisplayed();
     });
 
-    it('login with empty password', () => {
+    xit('login with empty password', () => {
         allureReporter.addFeature('Login With Empty Password')    
          LoginPage.login(constants.EMAIL,constants.EMPTY);
         expect(LoginPage.errorMessage).toBeDisplayed();
     });
 
-    it('Successful login',  () => {
+    xit('Successful login',  () => {
         allureReporter.addFeature('Login Successful')    
         LoginPage.login(constants.EMAIL, constants.PASSWORD);
+        if (NotePage.isTimezoneAlertDisplayed()) {
+            NotePage.clickTimezoneBtn()
+          }
         expect(NotePage.menu_toggle).toBeDisplayed(); 
     });
 });

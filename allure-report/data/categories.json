@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 60000ms exceeded. The execution in the test \"Task Creation \"before all\" hook for \"create 1 task\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/alejandro.arce/Documents/Onboarding_Challenge/test/specs/taskTest.js)",
+      "children" : [ {
+        "name" : "\"before all\" hook for Task Creation",
+        "uid" : "6382b4dc4502cc10",
+        "parentUid" : "1b286c836c8e524bfa83a23c28bf2731",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620327713890,
+          "stop" : 1620327773894,
+          "duration" : 60004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.72" ]
+      } ],
+      "uid" : "1b286c836c8e524bfa83a23c28bf2731"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }

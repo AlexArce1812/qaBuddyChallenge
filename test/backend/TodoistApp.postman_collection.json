@@ -17,8 +17,8 @@
 								"exec": [
 									"var jsonData = pm.response.json();",
 									"pm.collectionVariables.set(\"variable_key\", \"variable_value\");",
-									"pm.test(\"Response time is less than 500ms\", function () {",
-									"    pm.expect(pm.response.responseTime).to.be.below(500);",
+									"pm.test(\"Response time is less than 1500ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(1500);",
 									"});",
 									"",
 									"pm.test(\"Content-Type is present\", function () {",
