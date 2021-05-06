@@ -10,25 +10,25 @@ describe ('Login Test Suite', () => {
         LoginPage.open()
       })
 
-    xit('login with wrong credentials', () => {
+    it('login with wrong credentials', () => {
         allureReporter.addFeature('Login with Wrong Credentials')    
         LoginPage.login(constants.WRONGEMAIL,constants.WRONGPASSWORD);
         expect(LoginPage.errorMessage).toBeDisplayed();
     });
 
-    xit('login with empty email', () => {
+    it('login with empty email', () => {
         allureReporter.addFeature('Login with Empty Email')    
          LoginPage.login(constants.EMPTY,constants.WRONGPASSWORD);
          expect(LoginPage.errorMessage).toBeDisplayed();
     });
 
-    xit('login with empty password', () => {
+    it('login with empty password', () => {
         allureReporter.addFeature('Login With Empty Password')    
          LoginPage.login(constants.EMAIL,constants.EMPTY);
         expect(LoginPage.errorMessage).toBeDisplayed();
     });
 
-    xit('Successful login',  () => {
+    it('Successful login',  () => {
         allureReporter.addFeature('Login Successful')    
         LoginPage.login(constants.EMAIL, constants.PASSWORD);
         if (NotePage.isTimezoneAlertDisplayed()) {

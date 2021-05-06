@@ -54,7 +54,10 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'chrome', 
+        browserName: 'chrome',
+        'goog:chromeOptions': {
+            args: ['headless', 'disable-gpu'],
+          },
    /*     platformName: 'Windows 10',
         browserVersion: 'latest',
         acceptInsecureCerts: true,
@@ -74,8 +77,8 @@ exports.config = {
         acceptInsecureCerts: true,
          'sauce: options':{
             extendedDebugging: true
-          },
-    }*/
+          },*/
+    }
 
     
 
