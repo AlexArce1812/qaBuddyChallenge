@@ -1,60 +1,60 @@
 [ {
-  "uid" : "42a759aaae783dfd",
-  "name" : "login with empty email",
-  "time" : {
-    "start" : 1620334470045,
-    "stop" : 1620334470623,
-    "duration" : 578
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "92db0dff6bf1d840",
+  "uid" : "be714d14fb6e6350",
   "name" : "login with wrong credentials",
   "time" : {
-    "start" : 1620334467952,
-    "stop" : 1620334470044,
-    "duration" : 2092
+    "start" : 1620418361092,
+    "stop" : 1620418363803,
+    "duration" : 2711
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "59e59664a952f484",
-  "name" : "create 1 task",
+  "uid" : "a24ec8e7478c37f5",
+  "name" : "login with empty email",
   "time" : {
-    "start" : 1620334476076,
-    "stop" : 1620334486603,
-    "duration" : 10527
+    "start" : 1620418363804,
+    "stop" : 1620418364316,
+    "duration" : 512
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c126d93e94f32116",
-  "name" : "Successful login",
-  "time" : {
-    "start" : 1620334471218,
-    "stop" : 1620334474393,
-    "duration" : 3175
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f050ff72130f47b4",
-  "name" : "login with empty password",
-  "time" : {
-    "start" : 1620334470623,
-    "stop" : 1620334471218,
-    "duration" : 595
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "416f36d19c7d1cb4",
+  "uid" : "d4634aebcecaab3c",
   "name" : "create 10 task",
   "time" : {
-    "start" : 1620334486603,
-    "stop" : 1620334510150,
-    "duration" : 23547
+    "start" : 1620418391668,
+    "stop" : 1620418414561,
+    "duration" : 22893
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b3ed3f4711d8084",
+  "name" : "create 1 task",
+  "time" : {
+    "start" : 1620418370806,
+    "stop" : 1620418391668,
+    "duration" : 20862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "464011f3b728a294",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1620418364929,
+    "stop" : 1620418368715,
+    "duration" : 3786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d94eae28d9b8e7a4",
+  "name" : "login with empty password",
+  "time" : {
+    "start" : 1620418364316,
+    "stop" : 1620418364928,
+    "duration" : 612
   },
   "status" : "passed",
   "severity" : "normal"
