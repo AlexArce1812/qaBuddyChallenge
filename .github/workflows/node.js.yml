@@ -29,3 +29,17 @@ jobs:
     - run: npm run backend
     - run: npm install
     - run : npm run frontend-headless
+    env:
+        CI: true
+        EMAIL: ${{secrets.EMAIL}}
+        PASSWORD: ${{secrets.PASSWORD}}
+        WRONGPASSWORD: wrong
+        EMPTYPWD:
+        WRONGEMAIL: blabla
+        SAUCE_USERNAME: ${{secrets.SAUCE_USERNAME}}
+        SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
+        TASK: First Task
+    - name: Slack Notify
+      uses: rtCamp/action-slack-notify@v2.0.1
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
