@@ -1,35 +1,45 @@
 [ {
-  "uid" : "f25a66b0ac2cf5ee",
-  "name" : "Successful login",
-  "time" : {
-    "start" : 1620419634159,
-    "stop" : 1620419638209,
-    "duration" : 4050
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4fe556495ba46e28",
-  "name" : "create 10 task",
-  "time" : {
-    "start" : 1620419651176,
-    "stop" : 1620419674417,
-    "duration" : 23241
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2d70828115439a3a",
+  "uid" : "8cf908a0d8afb75e",
   "name" : "login with empty password",
   "time" : {
-    "start" : 1620419633596,
-    "stop" : 1620419634159,
-    "duration" : 563
+    "start" : 1621017737140,
+    "stop" : 1621017737762,
+    "duration" : 622
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cd912f2029f3391a",
+  "uid" : "a04831af3f29c50b",
+  "name" : "login with empty email",
+  "time" : {
+    "start" : 1620419632986,
+    "stop" : 1620419633596,
+    "duration" : 610
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6cd62cf6267f71f",
+  "name" : "login with wrong credentials",
+  "time" : {
+    "start" : 1621017734671,
+    "stop" : 1621017736561,
+    "duration" : 1890
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65bd73a1081815b9",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1621017737763,
+    "stop" : 1621017740795,
+    "duration" : 3032
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca6d61096082f300",
   "name" : "login with wrong credentials",
   "time" : {
     "start" : 1620419629518,
@@ -39,22 +49,72 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8ca91a429e119b3b",
+  "uid" : "fb091db7d7da3867",
+  "name" : "login with empty password",
+  "time" : {
+    "start" : 1620419633596,
+    "stop" : 1620419634159,
+    "duration" : 563
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d38e1977f34ac8e",
+  "name" : "create 1 task",
+  "time" : {
+    "start" : 1621017742708,
+    "stop" : 1621017752751,
+    "duration" : 10043
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bc85a71aa4ef778",
+  "name" : "create 10 task",
+  "time" : {
+    "start" : 1621017752751,
+    "stop" : 1621017775690,
+    "duration" : 22939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd9d60155d00b46",
+  "name" : "login with empty email",
+  "time" : {
+    "start" : 1621017736562,
+    "stop" : 1621017737140,
+    "duration" : 578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85749c73a14e111e",
+  "name" : "create 10 task",
+  "time" : {
+    "start" : 1620419651176,
+    "stop" : 1620419674417,
+    "duration" : 23241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e050d9318c0365c1",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1620419634159,
+    "stop" : 1620419638209,
+    "duration" : 4050
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17bdc3f4c016acae",
   "name" : "create 1 task",
   "time" : {
     "start" : 1620419639664,
     "stop" : 1620419651176,
     "duration" : 11512
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e72bb30d77214822",
-  "name" : "login with empty email",
-  "time" : {
-    "start" : 1620419632986,
-    "stop" : 1620419633596,
-    "duration" : 610
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,313 +1,10 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "0-0",
-    "children" : [ {
-      "name" : "login with empty password",
-      "uid" : "ab0d077a1515cb3b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620334470623,
-        "stop" : 1620334471218,
-        "duration" : 595
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "login with wrong credentials",
-      "uid" : "cd912f2029f3391a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620419629518,
-        "stop" : 1620419632986,
-        "duration" : 3468
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "Successful login",
-      "uid" : "9087f2c7e06c5711",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620333887229,
-        "stop" : 1620333913745,
-        "duration" : 26516
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "login with wrong credentials",
-      "uid" : "3695b9b14ceceaea",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620334467952,
-        "stop" : 1620334470044,
-        "duration" : 2092
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "login with empty email",
-      "uid" : "62f59b263e8f9275",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620418363804,
-        "stop" : 1620418364316,
-        "duration" : 512
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "login with empty password",
-      "uid" : "c318d7c2fff023ab",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620419517307,
-        "stop" : 1620419519025,
-        "duration" : 1718
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "login with empty password",
-      "uid" : "6c7fc1562e55220d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620418364316,
-        "stop" : 1620418364928,
-        "duration" : 612
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "login with wrong credentials",
-      "uid" : "f1e8594723a87fbf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620333843806,
-        "stop" : 1620333883755,
-        "duration" : 39949
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "login with empty email",
-      "uid" : "e0c8df13c7faace9",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620419516376,
-        "stop" : 1620419517306,
-        "duration" : 930
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "login with empty email",
-      "uid" : "955f9f75d8ba3b64",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620334470045,
-        "stop" : 1620334470623,
-        "duration" : 578
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "Successful login",
-      "uid" : "298165afd6b6fddf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620334471218,
-        "stop" : 1620334474393,
-        "duration" : 3175
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "Successful login",
-      "uid" : "f25a66b0ac2cf5ee",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620419634159,
-        "stop" : 1620419638209,
-        "duration" : 4050
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "login with wrong credentials",
-      "uid" : "4b3be976dbc3674c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620418361092,
-        "stop" : 1620418363803,
-        "duration" : 2711
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "login with wrong credentials",
-      "uid" : "9e6078cab53d5eec",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620419512055,
-        "stop" : 1620419516375,
-        "duration" : 4320
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "login with empty email",
-      "uid" : "e72bb30d77214822",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620419632986,
-        "stop" : 1620419633596,
-        "duration" : 610
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "Successful login",
-      "uid" : "76f4c4aaa14107b7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620418364929,
-        "stop" : 1620418368715,
-        "duration" : 3786
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "login with empty password",
-      "uid" : "2d70828115439a3a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620419633596,
-        "stop" : 1620419634159,
-        "duration" : 563
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "login with empty email",
-      "uid" : "770ada2e336797a8",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620333883755,
-        "stop" : 1620333886400,
-        "duration" : 2645
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "Successful login",
-      "uid" : "c180f3c653565262",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620419519025,
-        "stop" : 1620419524844,
-        "duration" : 5819
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "login with empty password",
-      "uid" : "5db33021045ff98d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620333886400,
-        "stop" : 1620333887229,
-        "duration" : 829
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    } ],
-    "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  }, {
     "name" : "0-1",
     "children" : [ {
-      "name" : "create 10 task",
-      "uid" : "126bb5f0901eb340",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620334486603,
-        "stop" : 1620334510150,
-        "duration" : 23547
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
       "name" : "create 1 task",
-      "uid" : "75f74e052a364422",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620334476076,
-        "stop" : 1620334486603,
-        "duration" : 10527
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "create 10 task",
-      "uid" : "46c9becec815a841",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620419551558,
-        "stop" : 1620419575649,
-        "duration" : 24091
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "create 1 task",
-      "uid" : "5fb287da90bac39",
+      "uid" : "32993aa62fdf287b",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
@@ -320,20 +17,111 @@
       "parameters" : [ "chrome-90.0.4430.93" ]
     }, {
       "name" : "create 10 task",
-      "uid" : "4fe556495ba46e28",
+      "uid" : "b09f4bef4ad25c46",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1620419651176,
-        "stop" : 1620419674417,
-        "duration" : 23241
+        "start" : 1620334486603,
+        "stop" : 1620334510150,
+        "duration" : 23547
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-90.0.4430.93" ]
     }, {
       "name" : "create 1 task",
-      "uid" : "a6c1c3bf4bc7340a",
+      "uid" : "17bdc3f4c016acae",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620419639664,
+        "stop" : 1620419651176,
+        "duration" : 11512
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "create 1 task",
+      "uid" : "dda63e7e4aabf778",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620418370806,
+        "stop" : 1620418391668,
+        "duration" : 20862
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "create 10 task",
+      "uid" : "3bc85a71aa4ef778",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621017752751,
+        "stop" : 1621017775690,
+        "duration" : 22939
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "create 10 task",
+      "uid" : "fe20d40e2167b3a1",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620418391668,
+        "stop" : 1620418414561,
+        "duration" : 22893
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "create 10 task",
+      "uid" : "5877d236a771f686",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620419551558,
+        "stop" : 1620419575649,
+        "duration" : 24091
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "create 1 task",
+      "uid" : "6d38e1977f34ac8e",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621017742708,
+        "stop" : 1621017752751,
+        "duration" : 10043
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "create 1 task",
+      "uid" : "aa35a21d91c1a894",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620334476076,
+        "stop" : 1620334486603,
+        "duration" : 10527
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "create 1 task",
+      "uid" : "482ea9299ce89884",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
@@ -346,7 +134,7 @@
       "parameters" : [ "chrome-90.0.4430.93" ]
     }, {
       "name" : "create 10 task",
-      "uid" : "36ac74001177fb38",
+      "uid" : "bc620e9ee1c5c707",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
@@ -358,46 +146,336 @@
       "newFailed" : false,
       "parameters" : [ "chrome-90.0.4430.93" ]
     }, {
-      "name" : "create 1 task",
-      "uid" : "3528789946b9b5c9",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620418370806,
-        "stop" : 1620418391668,
-        "duration" : 20862
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
-      "name" : "create 1 task",
-      "uid" : "8ca91a429e119b3b",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1620419639664,
-        "stop" : 1620419651176,
-        "duration" : 11512
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.93" ]
-    }, {
       "name" : "create 10 task",
-      "uid" : "1a6eb85a758e9e",
+      "uid" : "85749c73a14e111e",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1620418391668,
-        "stop" : 1620418414561,
-        "duration" : 22893
+        "start" : 1620419651176,
+        "stop" : 1620419674417,
+        "duration" : 23241
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-90.0.4430.93" ]
     } ],
     "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "login with wrong credentials",
+      "uid" : "8fe407fec7c077dd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620333843806,
+        "stop" : 1620333883755,
+        "duration" : 39949
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with empty email",
+      "uid" : "34c39ca5abff801c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620418363804,
+        "stop" : 1620418364316,
+        "duration" : 512
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with empty password",
+      "uid" : "99c36dc855dc4b2a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620418364316,
+        "stop" : 1620418364928,
+        "duration" : 612
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Successful login",
+      "uid" : "54720ad7f45c41a1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620418364929,
+        "stop" : 1620418368715,
+        "duration" : 3786
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Successful login",
+      "uid" : "65bd73a1081815b9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621017737763,
+        "stop" : 1621017740795,
+        "duration" : 3032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "login with empty password",
+      "uid" : "8cf908a0d8afb75e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621017737140,
+        "stop" : 1621017737762,
+        "duration" : 622
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Successful login",
+      "uid" : "7264b53e4553a3f7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620334471218,
+        "stop" : 1620334474393,
+        "duration" : 3175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Successful login",
+      "uid" : "b0e99449e5a6562a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620333887229,
+        "stop" : 1620333913745,
+        "duration" : 26516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with wrong credentials",
+      "uid" : "d6cd62cf6267f71f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621017734671,
+        "stop" : 1621017736561,
+        "duration" : 1890
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "login with wrong credentials",
+      "uid" : "8603314a9a6ebded",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620418361092,
+        "stop" : 1620418363803,
+        "duration" : 2711
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with wrong credentials",
+      "uid" : "ca6d61096082f300",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620419629518,
+        "stop" : 1620419632986,
+        "duration" : 3468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with empty password",
+      "uid" : "2ef5a49a7f7713d6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620419517307,
+        "stop" : 1620419519025,
+        "duration" : 1718
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with empty email",
+      "uid" : "bd9d60155d00b46",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621017736562,
+        "stop" : 1621017737140,
+        "duration" : 578
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "login with empty password",
+      "uid" : "fb091db7d7da3867",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620419633596,
+        "stop" : 1620419634159,
+        "duration" : 563
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with empty email",
+      "uid" : "c7bce7004f7e830a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620419516376,
+        "stop" : 1620419517306,
+        "duration" : 930
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Successful login",
+      "uid" : "a44a8fffdac76040",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620419519025,
+        "stop" : 1620419524844,
+        "duration" : 5819
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with empty email",
+      "uid" : "c432941cb4fbbfa0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620334470045,
+        "stop" : 1620334470623,
+        "duration" : 578
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with wrong credentials",
+      "uid" : "a06cf364e1a04e17",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620419512055,
+        "stop" : 1620419516375,
+        "duration" : 4320
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with empty email",
+      "uid" : "25ec5d0ae049750d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620333883755,
+        "stop" : 1620333886400,
+        "duration" : 2645
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with empty password",
+      "uid" : "539e22c501f9de7e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620333886400,
+        "stop" : 1620333887229,
+        "duration" : 829
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with empty email",
+      "uid" : "a04831af3f29c50b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620419632986,
+        "stop" : 1620419633596,
+        "duration" : 610
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with empty password",
+      "uid" : "8ed51aab3c5e6600",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620334470623,
+        "stop" : 1620334471218,
+        "duration" : 595
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "login with wrong credentials",
+      "uid" : "1cc3389b0485e99",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620334467952,
+        "stop" : 1620334470044,
+        "duration" : 2092
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Successful login",
+      "uid" : "e050d9318c0365c1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620419634159,
+        "stop" : 1620419638209,
+        "duration" : 4050
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
   } ],
   "name" : "timeline"
 }

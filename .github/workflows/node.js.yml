@@ -33,9 +33,9 @@ jobs:
         CI: true
         EMAIL: ${{secrets.EMAIL}}
         PASSWORD: ${{secrets.PASSWORD}}
-        WRONGPASSWORD: wrong
-        EMPTYPWD:
-        WRONGEMAIL: blabla
+        WRONG_USER_EMAIL: 12345@gmail.com
+        WRONG_PASSWORD: '12345'
+        TASK_NAME: task-
         SAUCE_USERNAME: ${{secrets.SAUCE_USERNAME}}
         SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
         TASK: First Task
