@@ -31,9 +31,9 @@ describe ('Login Test Suite', () => {
     it('Successful login',  () => {
         allureReporter.addFeature('Login Successful')    
         LoginPage.login(constants.EMAIL, constants.PASSWORD);
-        if (NotePage.isTimezoneAlertDisplayed()) {
-            NotePage.clickTimezoneBtn()
-          }
+        //if (NotePage.isTimezoneAlertDisplayed()) {
+         //   NotePage.clickTimezoneBtn()
+         //}
         expect(NotePage.menu_toggle).toBeDisplayed(); 
     });
 });
