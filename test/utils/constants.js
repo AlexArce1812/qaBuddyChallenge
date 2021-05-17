@@ -7,3 +7,4 @@ export const WRONGEMAIL = process.env.WRONG_USER_EMAIL
 export const WRONGPASSWORD = process.env.WRONG_PASSWORD
 export const EMPTY=""
 export const TASKNAME=process.env.TASK_NAME
+export const SLACK_WEBHOOK_URL = process.env.SLACK_WEBHOOK_URL

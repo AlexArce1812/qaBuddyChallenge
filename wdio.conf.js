@@ -142,6 +142,8 @@ exports.config = {
     
     services: ['chromedriver'],
     
+    
+    
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: https://webdriver.io/docs/frameworks
