@@ -35,9 +35,9 @@ jobs:
         PASSWORD: ${{secrets.PASSWORD}}
         WRONG_USER_EMAIL: 12345@gmail.com
         WRONG_PASSWORD: '12345'
-        TASK_NAME: task-
         SAUCE_USERNAME: ${{secrets.SAUCE_USERNAME}}
         SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
+        TASK_NAME: task-
     - name: Slack Notify
       uses: rtCamp/action-slack-notify@v2.0.1
       env:
