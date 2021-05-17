@@ -40,6 +40,6 @@ jobs:
         SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
     - name: Slack Notify
       uses: rtCamp/action-slack-notify@v2.0.1
-    env:
+      env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
    
