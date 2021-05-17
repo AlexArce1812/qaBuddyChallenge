@@ -9,9 +9,9 @@ describe ('Task Creation', () => {
         LoginPage.open();
         LoginPage.login(constants.EMAIL, constants.PASSWORD);
         browser.pause(5000)
-       // if (NotePage.isTimezoneAlertDisplayed()) {
-         //   NotePage.clickTimezoneBtn()
-         // }
+            if (NotePage.isTimezoneAlertDisplayed()) {
+            NotePage.clickTimezoneBtn()
+          }
     })
 
     it('create 1 task', () => {  
