@@ -55,9 +55,9 @@ exports.config = {
         maxInstances: 5,
         //
         browserName: 'chrome',
-        'goog:chromeOptions': {
+        /*'goog:chromeOptions': {
             args: ['headless', 'disable-gpu'],
-          },
+          },*/
        /* platformName: 'Windows 10',
         browserVersion: 'latest',
         acceptInsecureCerts: true,
