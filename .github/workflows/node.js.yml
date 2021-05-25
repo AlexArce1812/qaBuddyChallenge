@@ -32,8 +32,18 @@ jobs:
         SAUCE_USERNAME: ${{secrets.SAUCE_USERNAME}}
         SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
         TASK: First Task
-    - name: Slack Notify
-      uses: rtCamp/action-slack-notify@v2
-      env:
-        SLACK_WEBHOOK: ${{secrets.SLACK_WEBHOOK}}
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+    # Send Slack Notification
+    - name: Slack Frontend first notification  
+      uses: act10ns/slack@v1
+      with: 
+      status: starting
+      if: always()
+    # Send Slack Notification
+    - name: Slack Backend second notification  
+      uses: act10ns/slack@v1
+      with: 
+      status: ${{ job.status }
+      steps: ${{ toJson(steps) }}
+      if: always()
    
