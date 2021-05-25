@@ -33,13 +33,13 @@ jobs:
         TASK: First Task
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     # Send Slack Notification
-    - name: Slack Frontend first notification  
+    - name: Slack first notification  
       uses: act10ns/slack@v1
       with: 
         status: starting
       if: always()
     # Send Slack Notification
-    - name: Slack Backend second notification  
+    - name: Slack Backend notification  
       uses: act10ns/slack@v1
       with: 
         status: ${{ job.status }
