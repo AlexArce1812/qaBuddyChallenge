@@ -44,7 +44,7 @@ jobs:
       uses: act10ns/slack@v1
       with: 
         status: ${{ job.status }
-        steps: ${{ toJson(steps) }}
-        channel: '#buddy'
+          steps: ${{ toJson(steps) }}
+          channel: '#buddy'
       if: always()
    
