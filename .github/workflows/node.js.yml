@@ -19,6 +19,8 @@ jobs:
       with: 
         status: starting
       if: always()
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
@@ -34,7 +36,6 @@ jobs:
         PASSWORD: ${{secrets.PASSWORD}}
         SAUCE_USERNAME: ${{secrets.SAUCE_USERNAME}}
         SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
     # Send Slack Notification
     - name: Slack Backend second notification  
       uses: act10ns/slack@v1
@@ -42,4 +43,6 @@ jobs:
         status: ${{ job.status }}
         steps: ${{ toJson(steps) }}
       if: always()
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
    
