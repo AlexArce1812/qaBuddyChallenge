@@ -45,5 +45,6 @@ jobs:
       with: 
         status: ${{ job.status }
         steps: ${{ toJson(steps) }}
+        channel: '#buddy'
       if: always()
    
