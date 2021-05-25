@@ -26,20 +26,17 @@ jobs:
         CI: true
         EMAIL: ${{secrets.EMAIL}}
         PASSWORD: ${{secrets.PASSWORD}}
-        WRONG_PASSWORD: blablabla
-        WRONG_USER_EMAIL: 12345@gmail.com
         SAUCE_USERNAME: ${{secrets.SAUCE_USERNAME}}
         SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
-        TASK: First Task
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     # Send Slack Notification
-    - name: Slack first notification  
+    - name: Slack Frontend first notification  
       uses: act10ns/slack@v1
       with: 
         status: starting
       if: always()
     # Send Slack Notification
-    - name: Slack Backend notification  
+    - name: Slack Backend second notification  
       uses: act10ns/slack@v1
       with: 
         status: ${{ job.status }
