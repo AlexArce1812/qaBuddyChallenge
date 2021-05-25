@@ -27,7 +27,6 @@ jobs:
         EMAIL: ${{secrets.EMAIL}}
         PASSWORD: ${{secrets.PASSWORD}}
         WRONG_PASSWORD: blablabla
-        EMPTYPWD: 
         WRONG_USER_EMAIL: 12345@gmail.com
         SAUCE_USERNAME: ${{secrets.SAUCE_USERNAME}}
         SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
