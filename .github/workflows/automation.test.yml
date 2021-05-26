@@ -14,7 +14,6 @@ jobs:
         PASSWORD: ${{secrets.PASSWORD}}
         SAUCE_USERNAME: ${{secrets.SAUCE_USERNAME}}
         SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
-        WEBHOOK: ${{ secrets.WEBHOOK }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -25,6 +24,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+      env:
+         WEBHOOK: ${{secrets.WEBHOOK}}
     - run: echo $WEBHOOK    
     - run: npm ci
     - run: npm run backend
