@@ -31,7 +31,7 @@ describe ('Login Test Suite', () => {
     it('Successful login',  () => {
         allureReporter.addFeature('Login Successful')    
         LoginPage.login(constants.EMAIL, constants.PASSWORD);
-        browser.pause(3000)
+        browser.pause(15000)
         if (NotePage.isTimezoneAlertDisplayed()) {
            NotePage.clickTimezoneBtn()
          }
