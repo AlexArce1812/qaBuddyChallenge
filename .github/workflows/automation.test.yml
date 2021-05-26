@@ -25,26 +25,21 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: echo $WEBHOOK    
-    - run: npm ci
-    - run: npm run backend
-    #- run: npm install
-    #- run : npm run frontend-headless
     - name: Slack notification
       env:
         SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}
         SLACK_AVATAR: repository # Optional. can be (repository, sender, an URL) (defaults to webhook app avatar)
       uses: Ilshidur/action-slack@2.0.2
       with:
-        args: 'Test Automation Build' # Optional     
-
-    # Send Slack Notification
-    #- name: Slack Backend second notification  
-    #  uses: act10ns/slack@v1
-    #  with: 
-    #    status: ${{ job.status }}
-    #    steps: ${{ toJson(steps) }}
-    #  if: always()
-    #  env:
-    #    WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
-   
+        args: 'Test Automation Build Started' # Optional       
+    - run: npm ci
+    - run: npm run backend
+    - run: npm install
+    - run : npm run frontend-headless
+    - name: Slack notification
+      env:
+        SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}
+        SLACK_AVATAR: repository # Optional. can be (repository, sender, an URL) (defaults to webhook app avatar)
+      uses: Ilshidur/action-slack@2.0.2
+      with:
+        args: 'Test Automation Build Completed' # Optional  
