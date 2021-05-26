@@ -8,7 +8,7 @@ describe ('Task Creation', () => {
     before(()=>{
         LoginPage.open();
         LoginPage.login(constants.EMAIL, constants.PASSWORD);
-        browser.pause(15000)
+        browser.pause(5000)
             if (NotePage.isTimezoneAlertDisplayed()) {
             NotePage.clickTimezoneBtn()
           }
