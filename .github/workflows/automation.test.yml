@@ -1,0 +1,58 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+    steps:
+    # Send Slack Notification
+    - name: Slack notification
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_AVATAR: repository # Optional. can be (repository, sender, an URL) (defaults to webhook app avatar)
+      uses: Ilshidur/action-slack@2.0.2
+      with:
+        args: 'Starting Test Automation Build' # Optional   
+
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci
+    - run: npm run backend
+    #- run: npm install
+    #- run : npm run frontend-headless
+      env:
+        CI: true
+        EMAIL: ${{secrets.EMAIL}}
+        PASSWORD: ${{secrets.PASSWORD}}
+        SAUCE_USERNAME: ${{secrets.SAUCE_USERNAME}}
+        SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
+        WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+    - name: Slack notification
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_AVATAR: repository # Optional. can be (repository, sender, an URL) (defaults to webhook app avatar)
+      uses: Ilshidur/action-slack@2.0.2
+      with:
+        args: 'Test Automation Build' # Optional     
+
+    # Send Slack Notification
+    #- name: Slack Backend second notification  
+    #  uses: act10ns/slack@v1
+    #  with: 
+    #    status: ${{ job.status }}
+    #    steps: ${{ toJson(steps) }}
+    #  if: always()
+    #  env:
+    #    WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+   
