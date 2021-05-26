@@ -54,11 +54,11 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'chrome',
-        /*'goog:chromeOptions': {
+       // browserName: 'chrome',
+        'goog:chromeOptions': {
             args: ['headless', 'disable-gpu'],
-          },*/
-       /* platformName: 'Windows 10',
+          },
+        platformName: 'Windows 10',
         browserVersion: 'latest',
         acceptInsecureCerts: true,
          'sauce: options':{
@@ -68,7 +68,7 @@ exports.config = {
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
-    },{
+    },/*{
         maxInstances: 5,
         //
         browserName: 'firefox', 
@@ -77,7 +77,7 @@ exports.config = {
         acceptInsecureCerts: true,
          'sauce: options':{
             extendedDebugging: true
-          },*/
+          }*/
     }
 
     
