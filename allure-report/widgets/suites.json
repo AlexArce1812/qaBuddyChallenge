@@ -5,22 +5,22 @@
     "name" : "Login Test Suite",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 8
+      "total" : 13
     }
   }, {
     "uid" : "486df5b73e82b204e9162b6009d82736",
     "name" : "Task Creation",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 4
+      "total" : 7
     }
   } ]
 }

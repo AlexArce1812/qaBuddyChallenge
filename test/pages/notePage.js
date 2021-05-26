@@ -9,7 +9,7 @@ class NotePage extends Page{
     get addBtn(){return $('.ist_button_red')}
     get settingsBtn(){return $('.settings_btn')}
     get logOutBtn(){return $$('.user_menu_label')[8]}
-    get changeTimezoneBtn () { return $('//div[@class="timezone_alert"]/a[2]') }
+    get changeTimezoneBtn () { return $('.close') }
 
     createNewTask(taskName){
         this.newTaskBtn.click();

@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
-  "name" : "categories"
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot read property 'isDisplayed' of undefined",
+      "children" : [ {
+        "name" : "\"before all\" hook for Task Creation",
+        "uid" : "c8df99e1c785fdef",
+        "parentUid" : "1df1a6e649e22abbd129de98b8bc6532",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622052038295,
+          "stop" : 1622052045024,
+          "duration" : 6729
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.212" ]
+      } ],
+      "uid" : "1df1a6e649e22abbd129de98b8bc6532"
+    }, {
+      "name" : "no such window: window was already closed\n                  (Session info: chrome=90.0.4430.212)",
+      "children" : [ {
+        "name" : "\"before each\" hook for Login Test Suite",
+        "uid" : "42c582dd1a762632",
+        "parentUid" : "6a6c451b1dc12909ff492dc1e7f12171",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622053255850,
+          "stop" : 1622053255874,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.212" ]
+      } ],
+      "uid" : "6a6c451b1dc12909ff492dc1e7f12171"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

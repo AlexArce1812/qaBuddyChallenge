@@ -52,23 +52,24 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+       // maxInstances: 5,
         //
        browserName: 'chrome',
-       'goog:chromeOptions': {
+       /*'goog:chromeOptions': {
             args: ['headless', 'disable-gpu'],
-          },/*
+          },*/
         platformName: 'Windows 10',
         browserVersion: 'latest',
         acceptInsecureCerts: true,
          'sauce: options':{
             extendedDebugging: true
-          }*/
+          }
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
-    },/*{
+    },
+   {
         maxInstances: 5,
         //
         browserName: 'firefox', 
@@ -77,9 +78,9 @@ exports.config = {
         acceptInsecureCerts: true,
          'sauce: options':{
             extendedDebugging: true
-          }*/
+          }
     
-
+    }
     
 
 ],
@@ -130,7 +131,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-   /* user: process.env.SAUCE_USERNAME,
+   user: process.env.SAUCE_USERNAME,
     key: process.env.SAUCE_ACCESS_KEY,
     services: [
         ['sauce', {
@@ -138,9 +139,9 @@ exports.config = {
             sauceConnect: false,
             sauceConnectOpts: {}
             }]
-    ],*/
+    ],
     
-    services: ['chromedriver'],
+    //services: ['chromedriver'],
     
     
     
