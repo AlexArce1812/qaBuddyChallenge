@@ -28,10 +28,10 @@ jobs:
     - name: Slack notification
       id: slack
       uses: slackapi/slack-github-action@v1.24.0
-      env:
-        SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}
       with:
-        payload: '{"text": "Test Automation Build Started"}' # Optional       
+        payload: '{"text": "Test Automation Build Started"}' # Optional     
+        env:
+          SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}  
     - run: npm ci
     - run: npm run backend
    # - run: npm install
@@ -39,7 +39,7 @@ jobs:
     - name: Slack notification
       id: slackFinish
       uses: slackapi/slack-github-action@v1.24.0
-      env:
-        SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}
       with:
         payload: '{"Test Automation Build Completed"}' # Optional  
+        env:
+          SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}
