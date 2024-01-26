@@ -30,8 +30,8 @@ jobs:
       uses: slackapi/slack-github-action@v1.24.0
       with:
         payload: '{"text": "Test Automation Build Started"}' # Optional     
-        env:
-          SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}  
+      env:
+        SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}  
     - run: npm ci
     - run: npm run backend
    # - run: npm install
@@ -41,5 +41,5 @@ jobs:
       uses: slackapi/slack-github-action@v1.24.0
       with:
         payload: '{"Test Automation Build Completed"}' # Optional  
-        env:
-          SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}
+      env:
+        SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}
