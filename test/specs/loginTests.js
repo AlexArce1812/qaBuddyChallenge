@@ -13,19 +13,19 @@ describe ('Login Test Suite', () => {
     it('login with wrong credentials', () => {
         allureReporter.addFeature('Login with Wrong Credentials')    
         LoginPage.login(constants.WRONGEMAIL,constants.WRONGPASSWORD);
-        expect(LoginPage.errorMessage).toBeDisplayed();
+        expect(LoginPage.errorMessage1).toBeDisplayed();
     });
 
     it('login with empty email', () => {
         allureReporter.addFeature('Login with Empty Email')    
          LoginPage.login(constants.EMPTY,constants.WRONGPASSWORD);
-         expect(LoginPage.errorMessage).toBeDisplayed();
+         expect(LoginPage.errorMessage2).toBeDisplayed();
     });
 
     it('login with empty password', () => {
         allureReporter.addFeature('Login With Empty Password')    
          LoginPage.login(constants.EMAIL,constants.EMPTY);
-        expect(LoginPage.errorMessage).toBeDisplayed();
+        expect(LoginPage.errorMessage3).toBeDisplayed();
     });
 
     it('Successful login',  () => {
