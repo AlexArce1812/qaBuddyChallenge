@@ -34,8 +34,8 @@ jobs:
         args: 'Test Automation Build Started' # Optional       
     - run: npm ci
     - run: npm run backend
-   # - run: npm install
-   # - run : npm run frontend-headless
+    - run: npm install
+    - run : npm run frontend-headless
     - name: Slack notification
       env:
         SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}
