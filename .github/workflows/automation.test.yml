@@ -31,7 +31,7 @@ jobs:
       env:
         SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}
       with:
-        args: 'Test Automation Build Started' # Optional       
+        payload: '{"text": "Test Automation Build Started"}' # Optional       
     - run: npm ci
     - run: npm run backend
    # - run: npm install
@@ -42,4 +42,4 @@ jobs:
       env:
         SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}
       with:
-        args: 'Test Automation Build Completed' # Optional  
+        payload: '{"Test Automation Build Completed"}' # Optional  
