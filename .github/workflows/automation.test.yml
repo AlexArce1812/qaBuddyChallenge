@@ -14,7 +14,7 @@ jobs:
         PASSWORD: ${{secrets.PASSWORD}}
         SAUCE_USERNAME: ${{secrets.SAUCE_USERNAME}}
         SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
-        SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}
+        SLACK_WEBHOOK: https://hooks.slack.com/services/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
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -31,7 +31,7 @@ jobs:
       with:
         payload: '{"text": "Test Automation Build Started"}' # Optional     
       env:
-        SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}  
+        SLACK_WEBHOOK: https://hooks.slack.com/services/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
     - run: npm ci
     - run: npm run backend
    # - run: npm install
@@ -42,4 +42,4 @@ jobs:
       with:
         payload: '{"Test Automation Build Completed"}' # Optional  
       env:
-        SLACK_WEBHOOK: ${{ secrets.WEBHOOK }}
+        SLACK_WEBHOOK: https://hooks.slack.com/services/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
