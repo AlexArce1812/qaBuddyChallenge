@@ -4,7 +4,7 @@ import Page from './page'
 class NotePage extends Page{
 
     get menu_toggle(){return $('.left_menu_toggle')}
-    get newTaskBtn(){return $('.plus_add_button')}
+    get newTaskBtn(){return $('button[data-add-task-navigation-element="true"]')}
     get inputNewTask(){return $("//div[@contenteditable='true' and @aria-label='Task name']")}
     get addBtn(){return $("button[data-testid='task-editor-submit-button']")}
     get settingsBtn(){return $('.settings_btn')}
