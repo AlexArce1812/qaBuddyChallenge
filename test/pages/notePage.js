@@ -5,8 +5,8 @@ class NotePage extends Page{
 
     get menu_toggle(){return $('.left_menu_toggle')}
     get newTaskBtn(){return $('.plus_add_button')}
-    get inputNewTask(){return $('.public-DraftEditor-content')}
-    get addBtn(){return $('.ist_button_red')}
+    get inputNewTask(){return $("//div[@contenteditable='true' and @aria-label='Task name']")}
+    get addBtn(){return $("button[data-testid='task-editor-submit-button']")}
     get settingsBtn(){return $('.settings_btn')}
     get logOutBtn(){return $$('.user_menu_label')[8]}
     get changeTimezoneBtn () { return $('.close') }
