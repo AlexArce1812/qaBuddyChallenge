@@ -40,7 +40,7 @@ jobs:
       id: slackFinish
       uses: slackapi/slack-github-action@v1.24.0
       with:
-        payload: '{"Test Automation Build Completed"}' # Optional  
+        payload: '{"text": "Test Automation Build Completed"}' # Optional  
       env:
         SLACK_WEBHOOK_URL: ${{ secrets.WEBHOOK }}
 
